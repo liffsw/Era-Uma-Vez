@@ -348,3 +348,18 @@ button:focus-visible {
     font-size: var(--fonte-pequena);
     color: var(--cor-secundaria);
 }
+
+.pular-link,
+.pular-link:visited {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    background-color: var(--cor-primaria);
+    color: var(--cor-fundo);
+    padding: 0.5rem 1rem;
+    z-index: 200;
+}
+
+.pular-link:focus {
+    left: 0;
+}
